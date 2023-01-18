@@ -6,4 +6,4 @@ First build Docker image:
 
 Run Docker container:
 
-``` docker run -d --name kaldi-smart-home - v your_absolute_path_to_asr_directory/asr:/asr -p 5000:5000 kaldi-asr ```
+``` docker run -d --name kaldi-smart-home -v your_absolute_path_to_asr_directory/asr:/asr -p 5000:5000 kaldi-asr ```
